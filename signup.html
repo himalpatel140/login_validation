@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="UserController.js"></script>
+    <script src="Common.js"></script>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+    <script src="main.js"></script>
+    <script src="test.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div style="float: right;margin: 20px 0">
+                <a href="login.html" target="_blank">LOGIN</a>
+            </div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-11">
+                <h1>Sign up Here</h1>
+                <div class="form-group">
+                    <label for="">Enter Fullname: </label> <input class="form-control" id="fullname" type="text">
+                    <br>
+                    <label for="">Username: </label> <input type="text" class="form-control" id="uname"><br>
+                    <label for="">Password: </label> <input id="password" class="form-control" type="password"><br>
+                    <label for="">Confirm Password: </label> <input id="confirm_password" class="form-control" type="password"> <span id="checkPasswordMatch" value="${value}"></span>
+                    <br>
+                    <button class="btn btn-primary" type="submit" id="submit" style="cursor: pointer">Submit</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

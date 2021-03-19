@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="UserController.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <script src="test.js"></script>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-10"></div>
+            <div class="col-2">
+                <div style="float: right; margin: 20px 0">
+                    <a href="signup.html">SIGN UP</a> |
+                    <a href="index.html">MAIN</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar -->
+
+    <!-- Login Container -->
+    <div class="container">
+        <div class="row fluid justify-content-center">
+
+            <div class="col-6">
+                <h1>Login</h1><br>
+                <div class="form-group fluid">
+                    <label for="">Username: </label> <input type="text" class="form-control" id="username"><br>
+                    <label for="">Password: </label> <input id="password" class="form-control" type="password">
+                    <button id="password_btn" class="btn btn-info">
+                        Show password
+                    </button><br>
+                    <br>
+                    <div class="suggestion-container">
+
+                    </div>
+                    <br>
+                    <button class="btn btn-primary" type="submit" id="login" style="cursor: pointer">Login</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Login Container -->
+
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+1. Why cann't access "User" in console?
+--> because you are not making use of it , in any of your events.
+--> DOM was not ready
+2. Store User.list. value to localStorage
+-> stringfing
+-> parse
+
+
+1. Todo list Bootstrap
+    --> should know and understand rows and cols classes
+
+
+ 03/08/21
+ 1. Make sign up and login screen in center of page.
+
+ getUrl() - > return current UserList
+ getUrl("https://google.com") - >redirect
+
+ getUrl("https://google.com","blank") - >redirect
+
+ $().val("name","sdf")
+
+
